@@ -7,7 +7,7 @@ document.querySelector(".dice .img2").setAttribute("src", "images/dice"+randomNu
 if(randomNumber1 == randomNumber2) {
     document.querySelector("h1").innerHTML = "Draw!";
 } else if (randomNumber1<randomNumber2) {
-    document.querySelector("h1").innerHTML = "Player 2 Wins!";
+    document.querySelector("h1").innerHTML = "Meghna Wins!";
 } else if (randomNumber1>randomNumber2) {
-    document.querySelector("h1").innerHTML = "Player 1 Wins!";
+    document.querySelector("h1").innerHTML = "Gurdeep Wins!";
 }
